@@ -24,6 +24,7 @@
     self.playerVC.view.frame=self.view.bounds;
     self.playerVC.showsPlaybackControls=YES;
     //开启这个播放时支持横竖屏
+    //
     self.playerVC.entersFullScreenWhenPlaybackBegins=YES;
     //开启这个所有item播放完毕可以退出全屏
     self.playerVC.exitsFullScreenWhenPlaybackEnds=YES;
