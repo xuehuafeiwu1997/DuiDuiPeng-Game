@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VCThird.h
 //  多界面传值
 //
 //  Created by 许明洋 on 2019/7/16.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface VCThird : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
