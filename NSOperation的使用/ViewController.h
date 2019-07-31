@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    //定义一个人物队列对象
+    NSOperationQueue *_queue;
+}
 
 @end
 
